@@ -1,0 +1,131 @@
+#wikiTable {
+    position:relative;
+    margin-top: 10%;
+    color: white;
+    background-color: rgba(20, 150, 30, 0.5);
+  }
+
+  a{
+    text-decoration: none !important;
+  }
+
+ .link{
+     display:block;
+     height:fit-content;
+     font-size: 2vw;
+     font-family: 'Open Sans', sans-serif;
+     color: rgba(0, 0, 0, 0.95)
+ }
+
+ .info{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0,0.75);
+ }
+
+  th {
+    background:rgba(0, 0, 0, 0.25);
+    border: solid rgb(240, 240, 240) 1px;
+  }
+
+  body {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  #search-box {
+    position:relative;
+    background-color: rgba(128, 191, 255, 0.25);
+    display: flex;  
+    margin:auto;
+    width: 60%;
+    margin-top:5%;
+    border-radius: 25px 25px 25px 25px;
+  }
+  
+  #search-box:hover #search-input {
+    background-color: rgb(225, 226, 190);
+  }
+  
+  #search-box:hover {
+    background-color: rgba(46, 46, 31, 0.9);
+    opacity: 0.85;
+  }
+  
+  #search-submit:hover {
+    opacity: 1;
+  }
+  
+  #title{
+    background-color: rgba(46, 46, 31,0.35);
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    opacity: 0.75;
+    font-size: 5vw; 
+    border-radius:35px;
+    margin-top:5%;
+    text-align:center;
+    padding:1%;
+    }
+
+  #title img{
+    height: 6vw;
+    padding-top:2%;
+  }
+ 
+  
+  #search-input:focus {
+    background-color: rgba(230, 242, 255, 0.5);
+    opacity: 0.85;
+    outline-width: 0;
+  }
+  #search-submit:focus {
+    outline: none;
+  }
+  
+  #search-submit {
+    display: block;
+    position: relative;
+    height: 4vw;
+    width:auto;
+    opacity: 0.25;
+    padding:1%;
+  }
+  
+  #search-input {
+    background-color: rgba(128, 191, 255, 0.1);
+    border-radius: 0px 25px 25px 0px;
+    border: transparent;
+    font-size: 3.5vw;
+    color: black;
+    width:100%;
+    padding:1%;
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: rgba(128, 191, 255, 0.25);
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+    font-size: 1.25vw;
+  }
+  
+  .nav a:hover {
+    background-color: rgb(0, 13, 26);
+    color: rgb(179, 217, 255);
+  }
+  
+  .about {
+    background-color: rgb(0, 115, 230);
+    color: white;
+  }
+  
